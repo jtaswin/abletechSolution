@@ -17,7 +17,17 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/abletechSolution` directory. Use the `--prod` flag for a production build.
+
+ng build --prod
+
+npm install -g firebase-tools
+firebase login
+firebase init
+
+firebase deploy
+
+https://abletechsolution-cde50.firebaseapp.com
 
 ## Running unit tests
 
