@@ -4,7 +4,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
+After git clone, you should run 'npm install'.
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+Well done : you can now creat a new account or sign in with test@test.test / test@test98
 
 ## Code scaffolding
 
