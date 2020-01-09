@@ -18,19 +18,22 @@ export class SolutionComponent implements OnInit {
   getCalcul() {
   
   for (var i = 1; i <= 100; i++) {
-    
-    if (i % (3 * 5) === 0 && i !== 0) {
+
+    if (i % ( 3 * 5 ) === 0 ) {
       this.list.push("FizzBuzz");
-    } 
-    else if (i % 3 === 0 && i !== 0) {
+    }
+    else if ( i % 3 === 0 ) {
       this.list.push("Fizz");
     } 
-    else if (i % 5 === 0 && i !== 0) {
+    else if ( i % 5 === 0 ) {
       this.list.push("Buzz");
     }
-    else {
+    else if ( i !== 0 ) {
       this.list.push(i);
+      continue
     }
+    
+   
   }}
 
   constructor() { }
